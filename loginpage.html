@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#cfe8ef">
+    <header>
+        <div id="navigation_bar">
+            <nav>
+                <a href="Aboutme.html">Aboutme</a>
+                <a href="contact.html">Contact</a>
+                <a href="registration.html">Registration</a>
+                <a href="loginpage.html">Login</a>
+            </nav>
+           </div>
+    </header>
+    <main>
+        <div id="loginpageform">
+            <form action="Aboutme.html", class="pageform">
+                <h1>Log In:</h1>
+                <p>
+                    <label for="email">Email: </label><br>
+                    <input type="email", name="email", placeholder="abc123@gmail.com", required>
+                </p>
+                <p>
+                    <label for="password">Password: </label><br>
+                    <input type="password", id="password", name="password", placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength="16" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                </p>
+                <p style="display:flex; justify-content: space-evenly;">
+                    <a><input type="radio" id="remember_me" name="remember me"> remember me</a>
+                    <a href="">forgot password?</a>
+                </p>
+                <p style="text-align: center; padding-top: 15px;">
+                    <button type="submit" id="submit">LOG IN</button>
+               </p>
+               <p style="display: flex; justify-content: space-evenly;">
+                   <a>Don`t have an account?</a>
+                   <a href="registration.html">Sign up here</a>
+               </p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footerdiv">
+            <div>
+                <p>@Odutayo Fathiat</p>
+                <p>June 2022</p>
+                <p>Zuri Training</p>
+            </div>
+            <div>
+                <p>
+                    <img id="icon" src="telephone Icon.png"> +2348089684723
+                </p>
+                <p>
+                    <img id="icon" src="telephone Icon.png"> +2347013565735
+                </p>
+                <p>
+                    <img id="icon" src="emailIcon.jpg"> <a href="mailto: fathiat477odutayo@gmail.com" target="_blank">fathiat477odutayo@gmail.com</a>
+                </p>
+            </div>
+            <div>
+                <a href="Aboutme.html">Aboutme</a> <br><br>
+                <a href="contact.html">Contact</a> <br><br>
+                <a href="registration.html">Registration</a> <br><br>
+                <a href="loginpage.html">Login</a> <br><br>
+            </div>
+           </div>
+    </footer>
+</body>
+</html>

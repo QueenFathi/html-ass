@@ -1,0 +1,274 @@
+#navigation_bar{
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    width: 40%;
+    margin-left: auto;
+    padding: 1.2em;
+}
+nav a{
+    background-color: rgb(6, 138, 138);
+    padding: 1em;
+    border-radius: 1em;
+}
+nav a:link{
+    text-decoration: none;
+    color: maroon;
+}
+nav a:visited{
+    color: rgb(87, 4, 4);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: blue;
+}
+nav a:active{
+    color: darkblue;
+    text-decoration: none;
+}
+#myself{
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 8%;
+}
+img{
+    margin-left: 10%;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 120px;
+    align-content: flex-end;
+    width: 250px;
+}
+#name{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#me{
+    padding-bottom: 50px;
+}
+#image{
+    padding-top: 30px;
+    padding-left: 8%;
+    float: left; width: 30%;
+}
+.has{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+#box{
+    box-sizing: content-box;
+    position: relative;
+    background-color: rgb(158, 247, 247);
+    border-radius: 10px;
+    box-shadow: 8px 8px aqua;
+}
+.box3{
+    width: 15em;
+}
+.contactme{
+    border: 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 80px;
+    font-size: xx-large;
+    background-color: rgb(6, 138, 138);
+}
+.contactme:hover{
+    transform: scale(1.1);
+    background-color: rgb(9, 121, 121);
+}
+#icon{
+    height: 15px;
+    width: 15px;
+    border: none;
+}
+.footerdiv{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+#contactpageform{
+    box-sizing: border-box;
+    position: relative;
+    width: 50em;
+    height: 40em;
+    border: 5px solid rgb(6, 138, 138);
+    border-radius: 1em;
+    padding: 20px 50px 50px 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pageform{
+    font-size: large;
+}
+input, select{
+    width: 100%;
+    height: 3em;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 20px;
+}
+textarea{
+    width: 100%;
+    height: 10em;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#submit{
+    width: 20%;
+    height: 3em;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgb(6, 138, 138);
+}
+#submit:hover{
+    background-color: rgb(6, 88, 88);
+    transform: scale(1.25);
+}
+#s_r_button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 75px;
+    text-align: center;
+    padding-top: 50px;
+}
+#registrationpageform{
+    box-sizing: border-box;
+    position: relative;
+    width: 50em;
+    height: 62em;
+    border: 5px solid rgb(6, 138, 138);
+    border-radius: 1em;
+    padding: 20px 50px 50px 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginpageform{
+    box-sizing: border-box;
+    position: relative;
+    width: 35em;
+    height: 27em;
+    border: 5px solid rgb(6, 138, 138);
+    border-radius: 1em;
+    padding: 20px 50px 50px 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#remember_me{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        padding: 1.2em;
+    }
+    #image{
+        padding-top: 30px;
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mydetails{
+        text-align: center;
+    }
+    #name{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .has{
+        display: inline-block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box1{
+        width: 2oem;
+    }
+    .box2{
+        width: 20em;
+    }
+    .box3{
+        width: 20em;
+    }
+    .contactme{
+        border: 5px;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-size: xx-large;
+        background-color: rgb(6, 138, 138);
+    }
+    #contactpageform{
+        box-sizing: border-box;
+        position: relative;
+        width: 20em;
+        height: 40em;
+        border: 5px solid rgb(6, 138, 138);
+        border-radius: 1em;
+        padding: 20px 50px 50px 20px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #registrationpageform{
+        box-sizing: border-box;
+        position: relative;
+        width: 20em;
+        height: 58em;
+        border: 5px solid rgb(6, 138, 138);
+        border-radius: 1em;
+        padding: 20px 50px 50px 20px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #loginpageform{
+        box-sizing: border-box;
+        position: relative;
+        width: 20em;
+        height: 27em;
+        border: 5px solid rgb(6, 138, 138);
+        border-radius: 1em;
+        padding: 20px 50px 50px 20px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pageform{
+        font-size: medium;
+    }
+    #submit{
+        width: 40%;
+    }
+    #s_r_button{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 75px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    img{
+        width: 150px;
+    }
+}
